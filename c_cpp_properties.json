@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "name": "linux-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "/usr/bin/gcc",
+      "intelliSenseMode": "linux-gcc-x64",
+      "compilerArgs": [
+        "-mavx2"
+      ],
+      "compilerPathInCppPropertiesJson": "/usr/bin/gcc",
+      "mergeConfigurations": false,
+      "recursiveIncludes": {},
+      "browse": {
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "cStandard": "${default}",
+      "cppStandard": "${default}"
+    },
+    {
+      "name": "Win64",
+      "includePath": [
+        "f:/home/codeleaded/Hecke/C/**"
+      ],
+      "defines": [],
+      "cStandard": "c23",
+      "cppStandard": "c++23",
+      "intelliSenseMode": "windows-gcc-x64",
+      "mergeConfigurations": false,
+      "recursiveIncludes": {},
+      "compilerPath": "C:/MinGW/bin/gcc.exe",
+      "browse": {
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ],
+  "version": 4
+}
